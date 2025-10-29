@@ -1,0 +1,294 @@
+.mening_saytim_birinchi{
+  padding: 140px;
+  background: linear-gradient(120deg, #476076, #020404);
+  height: 1200px;
+}
+
+.boshqismi_ozimni_tanishtirish{
+  display: flex;
+  background-color: rgb(79, 88, 87);
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  margin: 30px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+  transition: transform 0.3s ease-in-out;
+}
+.boshqismi_ozimni_tanishtirish:hover{
+  transform: scale(1.1);
+}
+
+.rasmim{
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.odi_familiya_kasb{
+  margin-left: 100px;
+  margin-right: 50px;
+  
+}
+
+.ism_va_familiya{
+  font-size: 46px;
+  color: white;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.ism_va_familiya:hover{
+  transform: scale(1.2);
+}
+
+.abror{
+  margin-bottom: 10px;
+  color: rgb(103, 187, 195);
+}
+
+.yonalishim{
+  color: rgb(24, 24, 23);
+  font-size: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.yonalishim:hover{
+  transform: scale(1.6);
+}
+
+.bakent{
+  margin-left: 100px;
+
+}
+.rasmim{
+  transition: transform 0.3s ease-in-out;
+}
+.rasmim:hover{
+  transform: scale(1.2);
+}
+
+.dowload{
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.mening{
+  text-decoration: none;
+  color: #9a9494;
+  font-size: 17px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.SKILLS1{
+  text-decoration: none;
+  color: #9a9494;
+  font-size: 17px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.mening_biladiganlarim{
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+  transition: transform 0.3s ease-in-out;
+  width: 700px;
+}
+
+.mening_biladiganlarim:hover{
+  transform: scale(1.1);
+}
+
+.bilgan{
+  color: #f1f0f0;
+  font-size: 17px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding-left: 10px;
+  
+}
+
+.html{
+  background-color: #bbcd41;
+  width: 600px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+
+.html:hover{
+  transform: scale(1.1);
+}
+
+.css{
+  background-color: #d5cc4f;
+  width: 500px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+.css:hover{
+  transform: scale(1.1)
+}
+
+.js{
+  background-color: #b3cd22;
+  width: 100px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+.js:hover{
+  transform: scale(1.1);
+}
+
+.python{
+  background-color: #d5c22f;
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+.python:hover{
+  transform: scale(1.1);
+}
+
+.foiz1{
+  margin-left: 500px;
+  color: #4d3b3b;
+}
+
+.foiz2{
+  margin-left: 410px;
+  color: #4d3b3b;
+}
+
+.foiz3{
+  margin-left: 30px;
+  color: #4d3b3b;
+}
+
+.foiz4{
+  margin-left: 90px;
+  color: #4d3b3b;
+}
+
+.proyektlar{
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+  transition: transform 0.3s ease-in-out;
+  width: 700px;
+  
+}
+.proyektlar:hover{
+  transform: scale(1.1);
+}
+
+.github_link{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #83bdc1;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+.github_link:hover{
+  transform: scale(1.2);
+}
+
+.proyektlar1{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #83bdc1;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+}
+.proyektlar1:hover{
+  transform: scale(1.2);
+}
+
+.footer{
+  background-color: #2c413f; 
+  color: white; 
+  text-align: center; 
+  padding: 15px; 
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.github{
+  color: #9a9494;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
