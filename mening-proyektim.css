@@ -1,3 +1,7 @@
+body{
+  padding: 0;
+  margin: 0;
+}
 .mening_saytim_birinchi{
   padding: 140px;
   background: linear-gradient(120deg, #476076, #020404);
