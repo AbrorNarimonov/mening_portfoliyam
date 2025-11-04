@@ -2,7 +2,69 @@
   padding: 140px;
   background: linear-gradient(120deg, #476076, #020404);
   height: 1200px;
+  
 }
+
+
+.navbar_bosh{
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgb(79, 88, 87);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+
+.nav-link_berish{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.nav-link{
+  list-style: none;
+  transition: transform 0.3s ease-in-out;
+}
+.nav-link:hover{
+  transform: scale(1.1);
+}
+
+
+.nav_class{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .boshqismi_ozimni_tanishtirish{
   display: flex;
@@ -38,11 +100,8 @@
   font-size: 46px;
   color: white;
   margin-bottom: 10px;
-  transition: transform 0.3s ease-in-out;
 }
-.ism_va_familiya:hover{
-  transform: scale(1.2);
-}
+
 
 .abror{
   margin-bottom: 10px;
@@ -52,15 +111,11 @@
 .yonalishim{
   color: rgb(24, 24, 23);
   font-size: 25px;
-  transition: transform 0.3s ease-in-out;
 }
-.yonalishim:hover{
-  transform: scale(1.6);
-}
+
 
 .bakent{
   margin-left: 100px;
-
 }
 .rasmim{
   transition: transform 0.3s ease-in-out;
@@ -127,6 +182,7 @@
   width: 600px;
   transition: transform 0.3s ease-in-out;
   box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+  
 }
 
 .html:hover{
@@ -240,10 +296,106 @@
   color: #9a9494;
 }
 
+@media (max-width: 768px) {
+  .mening_saytim_birinchi {
+    padding: 10%;
+    height: auto;
+  }
+
+  .boshqismi_ozimni_tanishtirish {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .odi_familiya_kasb {
+    margin: 0;
+  }
+
+  .ism_va_familiya {
+    font-size: 32px;
+  }
+
+  .yonalishim {
+    font-size: 22px;
+  }
+
+  .rasmim {
+    width: 150px;
+    margin: 20px 0;
+  }
+
+  .mening {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .mening_biladiganlarim,
+  .proyektlar {
+    width: 100%;
+  }
+
+  .bilgan {
+    font-size: 15px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .foiz1,
+  .foiz2,
+  .foiz3,
+  .foiz4 {
+    margin-left: 0;
+  }
+
+  .github_link,
+  .proyektlar1 {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 
 
+@media (max-width: 480px) {
+  .ism_va_familiya {
+    font-size: 20px;
+  }
 
+  .yonalishim {
+    font-size: 18px;
+  }
 
+  .rasmim {
+    width: 120px;
+  }
+
+  .bilgan {
+    font-size: 14px;
+  }
+
+  .github_link,
+  .proyektlar1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-link_berish {
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+}
 
 
 
