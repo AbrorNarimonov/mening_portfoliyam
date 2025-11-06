@@ -5,7 +5,7 @@ body{
 .mening_saytim_birinchi{
   padding: 140px;
   background: linear-gradient(120deg, #476076, #020404);
-  height: 1200px;
+  height: 100%;
   
 }
 
@@ -20,6 +20,10 @@ body{
   padding: 10px 30px;
 }
 
+.logo{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(72, 160, 204);
+}
 
 .nav-link_berish{
   display: flex;
@@ -42,30 +46,6 @@ body{
   text-decoration: none;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -129,10 +109,20 @@ body{
 }
 
 .dowload{
-  color: #000;
+  color: #807e7e;
   text-decoration: none;
   font-size: 16px;
   font-family: sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #646363;
+  border-radius: 50px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.dowload:hover{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 40px 13px rgb(133, 131, 131);
+  color: #9a9494;
 }
 
 .mening{
@@ -155,93 +145,46 @@ body{
   margin-top: 10px;
 }
 
-.mening_biladiganlarim{
+
+
+.html_text{
+  font-size: 26px;
+  color: #7f9aa2;
+  font-family: sans-serif;
+}
+
+.bilgan_html{
   border: 1px solid #000;
   border-radius: 10px;
+  color: #807e7e;
   padding: 10px;
   box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
   transition: transform 0.3s ease-in-out;
-  width: 700px;
 }
-
-.mening_biladiganlarim:hover{
+.bilgan_html:hover{
   transform: scale(1.1);
 }
 
-.bilgan{
-  color: #f1f0f0;
-  font-size: 17px;
-  font-family: sans-serif;
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding-left: 10px;
-  
-}
 
-.html{
-  background-color: #bbcd41;
-  width: 600px;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
-  
-}
 
-.html:hover{
-  transform: scale(1.1);
-}
 
-.css{
-  background-color: #d5cc4f;
-  width: 500px;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
-}
-.css:hover{
-  transform: scale(1.1)
-}
 
-.js{
-  background-color: #b3cd22;
-  width: 100px;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
-}
-.js:hover{
-  transform: scale(1.1);
-}
 
-.python{
-  background-color: #d5c22f;
-  width: 200px;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
-}
-.python:hover{
-  transform: scale(1.1);
-}
 
-.foiz1{
-  margin-left: 500px;
-  color: #4d3b3b;
-}
 
-.foiz2{
-  margin-left: 410px;
-  color: #4d3b3b;
-}
 
-.foiz3{
-  margin-left: 30px;
-  color: #4d3b3b;
-}
 
-.foiz4{
-  margin-left: 90px;
-  color: #4d3b3b;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 .proyektlar{
   border: 1px solid #000;
@@ -348,13 +291,6 @@ body{
     padding: 5px 10px;
   }
 
-  .foiz1,
-  .foiz2,
-  .foiz3,
-  .foiz4 {
-    margin-left: 0;
-  }
-
   .github_link,
   .proyektlar1 {
     font-size: 18px;
@@ -401,9 +337,21 @@ body{
   }
 }
 
+@media (min-width: 768px) {
+  .nav-link_berish {
+    font-size: 26px;
+  }
+  .logo {
+    font-size: 26px;
+  }
+}
 
-
-
+@media (min-width: 435px) {
+  .mening_biladiganlarim {
+    display: flex;
+    gap: 10px;
+  }
+}
 
 
 
