@@ -132,7 +132,6 @@ body{
 }
 
 .SKILLS1{
-  text-decoration: none;
   color: #9a9494;
   font-size: 17px;
   font-family: sans-serif;
@@ -162,19 +161,60 @@ body{
 }
 
 
+.bilmagan{
+  color: #9a9494;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
 
+.rasmlar_til{
+  width: 90px;
+}
 
+.java_va_image{
+  display: flex;
+  align-items: center;
+}
 
+.Java_tili_ota{
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
+  transition: transform 0.3s ease-in-out;
+}
+.Java_tili_ota:hover{
+  transform: scale(1.1);
+}
 
+.bilmagan_tillar{
+  color: rgb(124, 184, 214);
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
 
+.izohi{
+  font-size: 18px;
+  color: #b5908d;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
 
-
-
-
-
-
-
-
+.bilmagn_til_ota{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 40px;
+}
 
 
 
@@ -333,8 +373,9 @@ body{
 
 @media (min-width: 435px) {
   .mening_biladiganlarim {
-    display: flex;
-    gap: 10px;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
   }
 }
 
