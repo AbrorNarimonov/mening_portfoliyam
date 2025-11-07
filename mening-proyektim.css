@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   padding: 0;
   margin: 0;
@@ -41,13 +44,17 @@ body{
   transform: scale(1.1);
 }
 
-
 .nav_class{
   text-decoration: none;
   color: white;
+  
 }
 
-
+.burger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
 
 
 .boshqismi_ozimni_tanishtirish{
@@ -138,6 +145,7 @@ body{
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  justify-content: center;
 }
 
 
@@ -168,6 +176,7 @@ body{
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .rasmlar_til{
@@ -180,15 +189,13 @@ body{
 }
 
 .Java_tili_ota{
-  border: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 4px 4px 40px 4px rgb(26, 25, 25);
-  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 4px 4px rgb(26, 25, 25);
 }
-.Java_tili_ota:hover{
-  transform: scale(1.1);
-}
+
 
 .bilmagan_tillar{
   color: rgb(124, 184, 214);
@@ -264,8 +271,12 @@ body{
   margin-top: 100px;
 }
 
-.github{
-  color: #9a9494;
+.project{
+  display: flex;
+  justify-content: center;
+  color: #a39492;
+  font-family: sans-serif;
+  font-size: 28px;
 }
 
 @media (max-width: 768px) {
@@ -379,7 +390,68 @@ body{
   }
 }
 
+.navbar_bosh {
+  position: relative;
+}
 
+
+.nav-link_berish {
+  
+
+  transform-origin: top right;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+  z-index: 1000;
+}
+
+.nav-link_berish.active {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.nav-link_berish .nav-link a {
+  display: block;
+  padding: 8px 12px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.nav-link_berish .nav-link a:hover {
+  background: rgba(255,255,255,0.04);
+  color: #4dc3ff;
+}
+
+.burger {
+  display: block;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+
+@media (min-width: 769px) {
+  .nav-link_berish {
+    position: static;
+    transform: none;
+    opacity: 1;
+    display: flex;
+    gap: 20px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+  }
+  .burger { display: none; }
+}
+
+@media (min-width: 769px){
+  .nav_class{
+    font-size: 26px;
+  }
+
+}
 
 
 
